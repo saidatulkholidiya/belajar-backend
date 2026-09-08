@@ -9,15 +9,15 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
-    "target": "es2022",
+    "target": "es2020",
     "types": ["node"],
     // For nodejs:
-    "lib": ["es2022", "dom"],
+    "lib": ["es2020", "dom"],
     // "types": ["node"],
     // and npm install -D @types/node
 
     // Other Outputs
-    "sourceMap": true,
+    // "sourceMap": true,
     //"declaration": true,
     //"declarationMap": true,
 
