@@ -16,3 +16,4 @@ setTimeout(() => {
 console.log("Pertama");
 console.log("Kedua");
 infoSistem();
+//# sourceMappingURL=pengenalan.js.map

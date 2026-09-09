@@ -53,7 +53,7 @@ Hostname      : ${os_1.default.hostname()}
 Uptime        : ${(os_1.default.uptime() / 3600).toFixed(1)} jam
 `;
 }
-// ====== TEST SEMUA ======
+// TEST SEMUA 
 async function test() {
     console.log("SOAL 1");
     analisisPath("./src/index.ts");
@@ -76,3 +76,4 @@ async function test() {
     console.log(laporanSistem());
 }
 test();
+//# sourceMappingURL=file-manager.js.map
